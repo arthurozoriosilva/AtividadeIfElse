@@ -26,7 +26,7 @@ public class AtividadeIfElse {
         }
         //Aqui está sendo pedido que o usúario infore sua idade
         idade=Integer.parseInt(JOptionPane.showInputDialog("Digite o valor de sua idade em anos: "));
-        //Aqui um if informa iforma ao usúario não está na média de idade para alguelm do 1ºAno,apenas se esse for o caso
+        //Aqui um if informa se o usúario não está na média de idade para alguelm do 1ºAno,apenas se esse for o caso
         if (idade !=16){
             JOptionPane.showMessageDialog(null,"Sua idade está fora da média de idade do 1ºAno.");
         }
